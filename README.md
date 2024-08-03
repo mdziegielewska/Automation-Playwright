@@ -7,7 +7,7 @@ This repository contains Playwright (TypeScript) automation tests created as par
 **Getting Started**
 
 1. Clone the repository:
-   ```git clone ```
+   ```git clone https://github.com/mdziegielewska/Automation-Playwright.git```
 
 2. Install dependencies
     ```npm install```
