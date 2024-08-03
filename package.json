@@ -1,0 +1,16 @@
+{
+  "name": "automationplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
