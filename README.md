@@ -40,6 +40,6 @@ This repository contains Playwright (TypeScript) automation tests created as par
     - Request loan  
 
 **To add**
-- Find transactions test
+- Extend test coverage with new scenarios
 - Session cookies preservation to eliminate the need to log in every time before testing account services
 - Test optimalization
