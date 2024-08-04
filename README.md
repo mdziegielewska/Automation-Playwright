@@ -37,3 +37,4 @@ This repository contains Playwright (TypeScript) automation tests created as par
 
 **To add**
 - Session cookies preservation to eliminate the need to log in every time before testing account services
+- Test optimalization
