@@ -22,19 +22,24 @@ This repository contains Playwright (TypeScript) automation tests created as par
 **Test Coverages**
 - Main page
     - Menu
-    - Navigation
-    - Latest News
+    - Navigation buttons
+    - Services
+    - Latest news
 - Footer 
 - Registration
 - Log in
     - Forgotten password
-- Customer Care
-- Account Services
+- Log out
+- Customer care
+- Account services
+    - Open new account
+    - Account ovierview
     - Transfer funds
-    - Bill Pay
+    - Bill pay
     - Update contact info
     - Request loan  
 
 **To add**
+- Find transactions test
 - Session cookies preservation to eliminate the need to log in every time before testing account services
 - Test optimalization
