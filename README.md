@@ -41,6 +41,7 @@ This repository contains Playwright (TypeScript) automation tests created as par
     - Find transaction 
 
 **To add**
+
 - Session cookies preservation to eliminate the need to log in every time before testing account services
 - Extend test coverage with new scenarios
 - More optimalization
