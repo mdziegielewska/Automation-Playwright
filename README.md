@@ -18,11 +18,13 @@ This repository contains Playwright (TypeScript) automation tests created as par
 
 
 ### Technologies Used
+
 - Playwright
 - TypeScript
 
 
 ### Test Coverages
+
 - Main page
     - Menu
     - Navigation buttons
