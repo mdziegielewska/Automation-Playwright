@@ -34,7 +34,7 @@ test.describe('Transfer funds', () => {
     
         let result = page.locator("#showResult");
         await expect(result).toBeVisible();
-        await expect(result).toContainText("Transfer Complete! ");
+        await expect(result).toContainText("Transfer Complete!");
     });
 });
 

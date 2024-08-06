@@ -1,10 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { forms } from '../support/forms';
 
-let testParams = [
-    {type: 'CHECKING', fromAccount: '16785'},
-    {type: 'SAVINGS', fromAccount: '16785'}
-];
+
+let accountTypes = ['CHECKING', 'SAVINGS'];
+
 
 test.beforeEach(async ({ page }) => {
     await page.goto('/');
@@ -14,7 +13,7 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('Open new account', () => {
 
-    testParams.forEach(({type, fromAccount}) => {
+    accountTypes.forEach((type) => {
         test(`should open new ${type} account`, async ({ page }) => {
 
             let leftPanel = page.locator('#leftPanel li a');
@@ -31,7 +30,7 @@ test.describe('Open new account', () => {
             
             let acc = open.locator('#fromAccountId');
             await expect(acc).toBeVisible();
-            await acc.selectOption(fromAccount);
+            await acc.selectOption(process.env.TEST_ACC_NUMBER!);
     
             await forms.submit(open);
     

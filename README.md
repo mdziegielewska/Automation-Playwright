@@ -37,9 +37,10 @@ This repository contains Playwright (TypeScript) automation tests created as par
     - Transfer funds
     - Bill pay
     - Update contact info
-    - Request loan  
+    - Request loan 
+    - Find transaction 
 
 **To add**
-- Find transactions test
 - Session cookies preservation to eliminate the need to log in every time before testing account services
-- Test optimalization
+- Extend test coverage with new scenarios
+- More optimalization
