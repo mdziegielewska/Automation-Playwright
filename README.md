@@ -4,6 +4,7 @@
 
 This repository contains Playwright (TypeScript) automation tests created as part of a learning exercise on the ParaBank website (https://parabank.parasoft.com/).
 
+
 ### Getting Started
 
 1. Clone the repository:
@@ -15,9 +16,11 @@ This repository contains Playwright (TypeScript) automation tests created as par
 3. Run tests
     ```npx playwright test```
 
+
 ### Technologies Used
 - Playwright
 - TypeScript
+
 
 ### Test Coverages
 - Main page
@@ -40,7 +43,8 @@ This repository contains Playwright (TypeScript) automation tests created as par
     - Request loan 
     - Find transaction 
 
-### To add
+
+### Future work
 
 - Session cookies preservation to eliminate the need to log in every time before testing account services
 - Extend test coverage with new scenarios
