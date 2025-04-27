@@ -26,24 +26,24 @@ This repository contains Playwright (TypeScript) automation tests created as par
 ### Test Coverages
 
 - Main page
-    - Menu
-    - Navigation buttons
-    - Services
-    - Latest news
-- Footer 
-- Registration
-- Log in
-    - Forgotten password
-- Log out
-- Customer care
-- Account services
-    - Open new account
-    - Account ovierview
-    - Transfer funds
-    - Bill pay
-    - Update contact info
-    - Request loan 
-    - Find transaction 
+    - [x] Menu
+    - [x] Navigation buttons
+    - [x] Services
+    - [x] Latest news
+- [x] Footer 
+- [x] Registration
+- [x] Log in
+    - [x] Forgotten password
+- [x] Log out
+- [x] Customer care
+- [x] Account services
+    - [x] Open new account
+    - [x] Account ovierview
+    - [x] Transfer funds
+    - [x] Bill pay
+    - [x] Update contact info
+    - [x] Request loan 
+    - [x] Find transaction 
 
 
 ### Future work
